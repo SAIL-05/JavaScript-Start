@@ -150,10 +150,219 @@
 
 //Write a program that tells if a user is legible to vote
 
-let age = -65;
+// let age = -65;
 
 // let voting = age < 18 ? "You cannot vote" : "You can vote";
 // console.log(voting);
 
-let voting = age < 100 && age >= 18 ? "You can vote" : "You cannot vote";
-console.log(voting);
+// let voting = age < 100 && age >= 18 ? "You can vote" : "You cannot vote";
+// console.log(voting);
+
+//Conditionals
+// if statement
+// if else statement
+// if else if statement
+
+// if(){}
+
+// let a = 23;
+// let b = 56;
+// console.log(a > b);
+
+// if condition
+// if (a > b) {
+//   console.log("The First Value is the greatest");
+// }
+
+//if else condition
+
+// if(){}else{}
+// if (45 > 67) {
+//   console.log("45 is the highest number");
+// } else {
+//   console.log("67 is the highest number ");
+// }
+
+// if (a > b) {
+//   console.log("The first Value is the greatest");
+// } else {
+//   console.log("The second value is the greatest");
+// }
+
+// let DBpass = "sam12345";
+// let password = "sam12345";
+
+// if (password === DBpass) {
+//   console.log("Logged In successfully");
+// } else {
+//   console.log("Incorrect Password");
+// }
+
+// const a = 45;
+// const b = 67;
+// alert(a + b);
+// const name = "John";
+// const mystory = `${name} is a bad boy, ${name} fetches water and ${name} does not attend classes, ${name} techer flogs ${name} and ${name} smokes sometime`;
+
+// alert(mystory);
+// console.log(mystory);
+
+// prompt();
+
+// prompt("Enter your age");
+// const myAge = prompt("Enter your age");
+// console.log(myAge);
+// alert(myAge);
+// const test = 78;
+// console.log(`Your lucky number is ${test}`);
+
+// const username = prompt("Enter your name");
+// alert(`Welcome ${username}`);
+
+// const age = prompt("Enter your age");
+// console.log(typeof age);
+
+// const storeprompt = prompt("Enter youir name");
+// console.log(storeprompt);
+
+// const a = 23;
+// console.log(a);
+// console.log(typeof a);
+// console.log(a.toString());
+
+// const age = parseInt(prompt("Enter your age"));
+// console.log(age);
+
+// let valueOne = prompt("Enter your first Number");
+// let valueTwo = prompt("Enter your second Number");
+// let ans = valueOne + valueTwo;
+// alert(ans);
+
+// let two = "34";
+// let test = parseInt(two);
+// console.log(two);
+// console.log(typeof two);
+// console.log(test);
+// console.log(typeof test);
+
+// let valueOne = parseInt(prompt("Enter your first Number"));
+// let valueTwo = parseInt(prompt("Enter your second Number"));
+// let ans = valueOne + valueTwo;
+// alert(ans);
+
+// Exercise list
+// Write a program that determines whether a given number is positive or negative.
+
+// let number = -18;
+// if (number > 0) {
+//   console.log("This is a positive Number");
+// } else {
+//   console.log("This is a negative number");
+// }
+
+// let number = parseInt(prompt("Enter a Number"));
+// if (number > 0) {
+//   alert(`${number} is a positive number`);
+// } else {
+//   alert(`${number} is a negative number`);
+// }
+
+// const userNumber = parseInt(prompt("Enter a number"));
+
+// if (userNumber > 0) {
+//   alert(`${userNumber} is a Postive number`);
+// } else if (userNumber === 0) {
+//   alert(`${userNumber} is invalid`);
+// } else if (isNaN(userNumber)) {
+//   alert("This is not a number");
+// } else {
+//   alert(`${userNumber} is a negative number`);
+// }
+
+// Write a program that checks if a number is even or odd.
+
+// const myNum = parseInt(prompt("Enter any number"));
+
+// if (myNum % 2 === 0) {
+//   alert(`${myNum} is an even number`);
+// } else {
+//   alert(`${myNum} is an odd number`);
+// }
+
+// Write a program to determine the greater of two numbers.
+
+// const valueOne = parseInt(prompt("Enter your bfirst value"));
+// const valuetwo = parseInt(prompt("Enter your second value"));
+
+// if (valueOne > valuetwo) {
+//   alert(`${valueOne} is grater than ${valuetwo}`);
+// } else {
+//   alert(`${valuetwo} is grater than ${valueOne}`);
+// }
+
+// Write a program that transforms a numerical grade to a letter grade (e.g grade 0-39 should display “F”, grade 40-44 should display “E”, grade 45-49 should display “D”, grade 50-59 should display “C”, grade 60-69 should display “B”, grade 70-100 should display “A”).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
+
+
+
+
+
+
+
+
+// Write a program that determines if a year is a leap year.
+
+// Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 discount have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+
+// Write a program that greets the user based on the time of day. Display good morning, good afternnon or good evening based on the time of day when you run the code.
+
+
+
+// Write a program that calculates the Body Mass Index (BMI) and categorizes it. The formula for BMI is: weight / (height * height).
+// Underweight (below 18.5), Healthy Weight (18.5 to 24.9), Overweight (25 to 29.9), and Obese (30 or greater)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
