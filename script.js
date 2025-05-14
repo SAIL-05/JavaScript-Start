@@ -302,32 +302,7 @@
 
 // Write a program that transforms a numerical grade to a letter grade (e.g grade 0-39 should display “F”, grade 40-44 should display “E”, grade 45-49 should display “D”, grade 50-59 should display “C”, grade 60-69 should display “B”, grade 70-100 should display “A”).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
-
-
-
-
-
-
-
 
 // Write a program that determines if a year is a leap year.
 
@@ -335,34 +310,83 @@
 
 // Write a program that greets the user based on the time of day. Display good morning, good afternnon or good evening based on the time of day when you run the code.
 
-
-
 // Write a program that calculates the Body Mass Index (BMI) and categorizes it. The formula for BMI is: weight / (height * height).
 // Underweight (below 18.5), Healthy Weight (18.5 to 24.9), Overweight (25 to 29.9), and Obese (30 or greater)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
+
+//String Methods
+// let myStr = "Hello, Javascript World!     ";
+// let myName = "Olorunda Samuel";
+
+// console.log(myStr);
+// console.log(myStr.toUpperCase());
+// console.log(myStr.toLowerCase());
+// console.log(myStr.charAt());
+// console.log(myStr.indexOf("Javascript"));
+// console.log(myStr.includes("Hello"));
+// console.log(myStr.slice(2, 8));
+// console.log(myStr.trim());
+// console.log(myStr.replace("World", "Universe"));
+// console.log(myStr.split(" "));
+// console.log(myName.split(" ")[1]);
+// console.log(myStr.startsWith("Hello"));
+// console.log(myStr.endsWith("Hi"));
+// console.log(myName + myStr);
+
+//Number Methods
+// let num = 42.678;
+// let strNum = "89.56";
+
+// console.log(num);
+// console.log(num.toString());
+// console.log(num.toFixed(2));
+// console.log(parseInt(strNum));
+// console.log(parseFloat(strNum));
+// console.log(isNaN("trtr"));
+
+//Math Method
+
+// console.log(Math.PI);
+// console.log(Math.round(41.673));
+// console.log(Math.floor(42.9));
+// console.log(Math.ceil(42.1));
+// console.log(Math.max(12, 6, 7));
+// console.log(Math.min(34, 5, 7));
+// console.log(Math.pow(2, 10));
+// console.log(Math.sqrt(144));
+
+// console.log(Math.random());
+// console.log(Math.random() * 10000);
+
+// console.log(Math.floor(Math.random() * 100));
+
+//Objects
+
+// let student = {
+//   name: "Shade",
+//   age: 34,
+//   email: "shad@gmail.com",
+// };
+
+// console.log(student);
+// console.log(student.name);
+// console.log(Object.keys(student));
+// console.log(Object.values(student));
+
+//Functions
+
+function myName(name) {
+  console.log(name);
+}
+
+myName("Samuel");
+myName("Esther");
+myName("Hassan");
+
+function addNum(a, b) {
+  console.log(a + b);
+}
+
+addNum(5, 9);
+addNum(34, 67);
